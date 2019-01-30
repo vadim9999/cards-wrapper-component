@@ -1,9 +1,9 @@
 {
-  "name": "@groceristar/pdf-export",
+  "name": "@groceristar/cards-wrapper",
   "version": "1.0.24",
   "description": "module to use pdf-export feature between projects",
   "main": "lib/index.js",
-  "repository": "https://github.com/GroceriStar/pdf-export-component",
+  "repository": "https://github.com/GroceriStar/cards-wrapper-component",
   "author": "Arthur Tkachenko",
   "license": "MIT",
   "private": false,
