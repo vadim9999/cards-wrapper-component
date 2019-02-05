@@ -1,8 +1,8 @@
-import ClearCardExample   from '~/ClearCardExample/ClearCardExample';
+import ClearCardsExample   from '~/ClearCardsExample/ClearCardsExample';
 //
 // import GeneratePDFButton from '~/GeneratePDFButton/GeneratePDFButton';
 
 
 export {
-  ClearCardExample
+  ClearCardsExample
 }
