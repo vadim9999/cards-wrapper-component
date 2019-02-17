@@ -35,6 +35,10 @@
     "regenerator-runtime": "^0.13.1",
     "rimraf": "^2.6.3"
   },
+  "dependencies": {
+    "antd": "^3.13.2",
+    "uuid": "^3.3.2"
+  },
   "peerDependencies": {
     "react": "^16.8.1",
     "react-dom": "^16.8.1"
@@ -42,8 +46,7 @@
   "publishConfig": {
     "access": "public"
   },
-  "dependencies": {
-    "antd": "^3.13.2",
-    "uuid": "^3.3.2"
-  }
+  "files": [
+    "/lib"
+  ]
 }
