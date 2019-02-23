@@ -1,6 +1,6 @@
 {
   "name": "@groceristar/cards-wrapper",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "module to use pdf-export feature between projects",
   "main": "lib/index.js",
   "repository": "https://github.com/GroceriStar/cards-wrapper-component",
@@ -36,7 +36,8 @@
     "rimraf": "^2.6.3"
   },
   "dependencies": {
-    "antd": "^3.13.2",
+    "@react-pdf/renderer": "^1.2.0",
+    "antd": "^3.13.0",
     "uuid": "^3.3.2"
   },
   "peerDependencies": {
@@ -45,11 +46,6 @@
   },
   "publishConfig": {
     "access": "public"
-  },
-  "dependencies": {
-    "@react-pdf/renderer": "^1.2.0",
-    "antd": "^3.13.0",
-    "uuid": "^3.3.2"
   },
   "files": [
     "/lib"
