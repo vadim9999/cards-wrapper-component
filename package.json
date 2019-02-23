@@ -44,6 +44,7 @@
   },
   "dependencies": {
     "@react-pdf/renderer": "^1.2.0",
+    "antd": "^3.13.0",
     "uuid": "^3.3.2"
   }
 }
