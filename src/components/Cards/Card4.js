@@ -12,8 +12,6 @@ const Card4 = () => {
   };
 
 
-
-
   return (
     <div style={{ background: '#ECECEC', padding: '30px' }}>
       <Row gutter={16}>
