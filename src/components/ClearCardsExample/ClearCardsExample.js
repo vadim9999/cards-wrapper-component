@@ -1,6 +1,9 @@
 import React, { Fragment } from 'react'
 
-import { TheCard1, TheCard2, TheCard3, TheCard4 } from './index'
+import { Divider } from 'antd'
+
+import { DefaultCard1, DefaultCard2, DefaultCard3, DefaultCard4, DefaultCard5
+} from './index'
 
 import {
   RecipeCard1,
