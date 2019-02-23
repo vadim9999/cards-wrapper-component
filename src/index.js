@@ -1,8 +1,15 @@
-import ClearCardsExample   from '~/ClearCardsExample/ClearCardsExample';
-//
-// import GeneratePDFButton from '~/GeneratePDFButton/GeneratePDFButton';
-
+import {
+  Card1,
+  Card2,
+  Card3,
+  Card4,
+  Card5
+} from './components/Cards';
 
 export {
-  ClearCardsExample
+  Card1,
+  Card2,
+  Card3,
+  Card4,
+  Card5
 }
