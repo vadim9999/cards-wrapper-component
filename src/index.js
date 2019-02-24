@@ -13,7 +13,7 @@ import {
   DefaultCard3,
   DefaultCard4,
   DefaultCard5
-} from '~/Cards/DefaultCard'
+} from '~/Cards/Default/DefaultCard'
 
 
 export {
