@@ -16,6 +16,9 @@ import {
 } from '~/Cards/Default/DefaultCard'
 
 
+import ClearCardsExample from '~/ClearCardsExample/ClearCardsExample';
+import DefaultCardsExample from '~/DefaultCardsExample/DefaultCardsExample';
+
 export {
   Card1,
   Card2,
@@ -29,5 +32,8 @@ export {
   DefaultCard3,
   DefaultCard4,
   DefaultCard5,
+
+  ClearCardsExample,
+  DefaultCardsExample
 
 }

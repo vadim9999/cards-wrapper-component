@@ -2,8 +2,10 @@ import React, { Fragment } from 'react'
 
 import { Divider } from 'antd'
 
-import { DefaultCard1, DefaultCard2, DefaultCard3, DefaultCard4, DefaultCard5
-} from '/index'
+// import { DefaultCard1,
+//   DefaultCard2, DefaultCard3,
+//   DefaultCard4, DefaultCard5
+// } from '/index'
 
 import {
   RecipeCard1,
@@ -19,30 +21,33 @@ const ClearCardsExample = () => {
     <Fragment>
       <br />
 
-      <hr />
+      <Divider />
 
       <RecipeCard1 title="Card title">
-      <hr />
-      <hr />
-      <hr />
-      <hr />
+        <hr />
+        <hr />
+        <hr />
+        <hr />
       </RecipeCard1>
-      <br />
+      <Divider />
 
       <RecipeCard2 title="Card title">
-      <hr />
-      <hr />
-      <hr />
+        <hr />
+        <hr />
+        <hr />
       </RecipeCard2>
-      <br />
+      <Divider />
+
       <RecipeCard3 title="Card title" description="This is the description" />
-      <br />
+      <Divider />
 
 
       <RecipeCard4 />
-      <br />
+      <Divider />
+
       <RecipeCard5 />
-      <br />
+      <Divider />
+
     </Fragment>
   )
 }
