@@ -2,18 +2,14 @@ import React, { Fragment } from 'react'
 
 import { Divider } from 'antd'
 
-import { DefaultCard1,
-  DefaultCard2, DefaultCard3,
-  DefaultCard4, DefaultCard5
+import {
+  DefaultCard1,
+  DefaultCard2,
+  DefaultCard3,
+  DefaultCard4,
+  DefaultCard5
 } from '/index'
 
-// import {
-//   RecipeCard1,
-//   RecipeCard2,
-//   RecipeCard3,
-//   RecipeCard4,
-//   RecipeCard5,
-// } from '/index'
 
 
 const DefaultCardsExample = () => {

@@ -8,11 +8,11 @@ import { Divider } from 'antd'
 // } from '/index'
 
 import {
-  RecipeCard1,
-  RecipeCard2,
-  RecipeCard3,
-  RecipeCard4,
-  RecipeCard5,
+  Card1,
+  Card2,
+  Card3,
+  Card4,
+  Card5,
 } from '/index'
 
 
