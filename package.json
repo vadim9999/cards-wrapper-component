@@ -9,8 +9,9 @@
   "private": false,
   "scripts": {
     "build": "babel src -d lib",
+    "build:test": "shx rm -rf && babel src -d dist",
     "#prepare": "yarn clean",
-    "clean": "rimraf ./coverage ./lib",
+    "clean": "shx rm -rf ./coverage && shx rm -rf ./lib",
     "lint": "eslint src",
     "zprepublish": "yarn clean && yarn build",
     "test": "jest",
@@ -33,7 +34,7 @@
     "react": "^16.8.1",
     "react-dom": "^16.8.1",
     "regenerator-runtime": "^0.13.1",
-    "rimraf": "^2.6.3"
+    "shx": "^0.3.2",
   },
   "dependencies": {
     "@react-pdf/renderer": "^1.2.0",
@@ -48,6 +49,8 @@
     "access": "public"
   },
   "files": [
-    "/lib"
+    "dist/*.js",
+    "dist/*.json",
+    "lib"
   ]
 }
