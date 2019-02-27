@@ -34,7 +34,7 @@
     "react": "^16.8.1",
     "react-dom": "^16.8.1",
     "regenerator-runtime": "^0.13.1",
-    "shx": "^0.3.2",
+    "shx": "^0.3.2"
   },
   "dependencies": {
     "@react-pdf/renderer": "^1.2.0",
