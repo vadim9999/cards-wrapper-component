@@ -1,9 +1,11 @@
 import React    from 'react';
 import ReactDOM from 'react-dom';
 import Enzyme, { shallow, configure } from 'enzyme';
-import EnzymeAdapter from 'enzyme-adapter-react-16'
+import EnzymeAdapter from 'enzyme-adapter-react-16';
 
 import TodaysDate from '~/TodaysDate';
+
+import ListWrapper from './ListWrapper';
 
 // Setup enzyme's react adapter
 Enzyme.configure({ adapter: new EnzymeAdapter() });

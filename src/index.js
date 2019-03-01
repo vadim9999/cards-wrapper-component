@@ -19,6 +19,8 @@ import {
 import ClearCardsExample from '~/ClearCardsExample/ClearCardsExample';
 import DefaultCardsExample from '~/DefaultCardsExample/DefaultCardsExample';
 
+import ListWrapper from '~/ListWrapper/ListWrapper'
+
 export {
   Card1,
   Card2,
@@ -34,6 +36,8 @@ export {
   DefaultCard5,
 
   ClearCardsExample,
-  DefaultCardsExample
+  DefaultCardsExample,
+
+  ListWrapper,
 
 }

@@ -2,7 +2,7 @@
   "name": "@groceristar/cards-wrapper",
   "version": "1.0.9",
   "description": "module to use antd cards between projects",
-  "main": "lib/index.js",
+  "main": "dist/index.js",
   "repository": "https://github.com/GroceriStar/cards-wrapper-component",
   "author": "Arthur Tkachenko",
   "license": "MIT",
