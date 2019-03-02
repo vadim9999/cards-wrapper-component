@@ -5,6 +5,9 @@ import { List, Divider } from 'antd';
 // import { DefaultList } from '@groceristar/grocery-component'
 import { ListWrapperShort } from '@groceristar/antd-showcase-components'
 
+
+
+
 import {
   getRandomRecipe,
   getFirstFiveRecipes,
@@ -24,13 +27,19 @@ const data = [
 
 
 
-const ExampleRecipeListView = () => {
+
+
+const h3Style = { margin: '16px 0' }
+
+
+
+const ExampleRecipeListView = (data) => {
 
 
   return (
     <div>
 
-      <h3 style={{ marginBottom: 16 }}>
+      <h3 style={h3Style}>
         Default Size
       </h3>
       <ListWrapperShort data={data} />
@@ -45,7 +54,7 @@ const ExampleRecipeListView = () => {
 
       <Divider />
 
-      <h3 style={{ margin: '16px 0' }}>
+      <h3 style={h3Style}>
         Small Size
       </h3>
       <ListWrapperShort data={data} size="small" />
@@ -59,7 +68,7 @@ const ExampleRecipeListView = () => {
       />
       <Divider />
 
-      <h3 style={{ margin: '16px 0' }}>
+      <h3 style={h3Style}>
         Large Size
       </h3>
       <ListWrapperShort data={data} size="large" />

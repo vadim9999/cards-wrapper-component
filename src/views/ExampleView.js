@@ -34,6 +34,9 @@ import {
   getFirstFiveRecipes
 } from "../selector";
 
+
+// const list = getFirstFiveRecipes()
+
 class ExampleCardsView extends Component {
 
     state = {
@@ -44,14 +47,14 @@ class ExampleCardsView extends Component {
   render() {
 
 
-    // const data = this.state.data;
+    const list = this.props.list;
 
     return (
       <Fragment>
         <div className="main">
 
             <Header />
-            <ListWrapper list={getFirstFiveRecipes()} />
+            <ListWrapper list={list} />
 
 
             <ClearCardsExample />

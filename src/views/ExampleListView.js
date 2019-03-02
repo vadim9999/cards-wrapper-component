@@ -5,16 +5,21 @@ import React, { Component, Fragment } from 'react';
 
 import { ListWrapper }   from '@groceristar/cards-wrapper';
 
-import {
-  getFirstFiveRecipes
-} from "../selector";
+
 
 import "antd/dist/antd.css";
 
-const ExampleListView = () => {
+// import {
+//   getFirstFiveRecipes
+// } from "../selector";
+//
+// const list = getFirstFiveRecipes();
+// console.log(list);
 
-  const list = getFirstFiveRecipes();
-  console.log(list);
+const ExampleListView = (list) => {
+
+  // const list = getFirstFiveRecipes();
+  // console.log(list);
 
   return (
     <Fragment>
