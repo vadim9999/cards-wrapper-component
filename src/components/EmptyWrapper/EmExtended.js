@@ -1,22 +1,7 @@
 import React, { Component, PureComponent } from 'react';
-import { Empty } from 'antd';
-
-const Em = () => {
-  return (
-    <Empty />
-  )
-}
-export default Em
-
-
-
-// ---
-
-
-
-import React, { Component, PureComponent } from 'react';
 import { Empty, Button } from 'antd';
 
+//@TODO replace it
 const imagePath = "https://gw.alipayobjects.com/mdn/miniapp_social/afts/img/A*pevERLJC9v0AAAAAAAAAAABjAQAAAQ/original";
 
 const EmExtended = () => {
@@ -26,11 +11,14 @@ const EmExtended = () => {
         image={imagePath}
         description={
           <span>
-            Customize <a href="#API">Description</a>
+            Customize
+            <a href="#API">Description</a>
           </span>
         }
       >
-        <Button type="primary">Create Now</Button>
+        <Button type="primary">
+          Create Now
+        </Button>
       </Empty>
     </Fragment>
   )
