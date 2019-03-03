@@ -33,7 +33,8 @@ import ExampleView from '@v/ExampleView'
 
 import Em         from '~/EmptyWrapper/Em'
 import EmExtended from '~/EmptyWrapper/EmExtended'
-
+import { EmptyImageWrapper,
+LinkEmptyImage } from '~/EmptyWrapper/EmptyImageWrapper'
 
 export {
   Card1,
@@ -60,6 +61,8 @@ export {
 
   ExampleListView, ExampleRecipeListView, ExampleView,
 
-  Em, EmExtended
+  Em, EmExtended,
+  EmptyImageWrapper,
+  LinkEmptyImage
 
 }
