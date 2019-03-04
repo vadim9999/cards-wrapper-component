@@ -53,7 +53,7 @@ class ExampleCardsView extends Component {
       <Fragment>
         <div className="main">
 
-            <Header />
+            <HeaderShowcase />
             <ListWrapper list={list} />
 
 
