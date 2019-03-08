@@ -12,9 +12,8 @@ import {
   Card2,
   Card3,
   Card4,
-  Card5,
+  Card5
 } from '/index'
-
 
 const ClearCardsExample = () => {
   return (
@@ -23,29 +22,28 @@ const ClearCardsExample = () => {
 
       <Divider />
 
-      <RecipeCard1 title="Card title">
+      <Card1 title='Card title'>
         <hr />
         <hr />
         <hr />
         <hr />
-      </RecipeCard1>
+      </Card1>
       <Divider />
 
-      <RecipeCard2 title="Card title">
+      <Card2 title='Card title'>
         <hr />
         <hr />
         <hr />
-      </RecipeCard2>
+      </Card2>
       <Divider />
 
-      <RecipeCard3 title="Card title" description="This is the description" />
+      <Card3 title='Card title' description='This is the description' />
       <Divider />
 
-
-      <RecipeCard4 />
+      <Card4 />
       <Divider />
 
-      <RecipeCard5 />
+      <Card5 />
       <Divider />
 
     </Fragment>

@@ -1,12 +1,9 @@
 import React, { Component } from 'react'
-import _        from "lodash";
-import { List, Divider } from 'antd';
+import _ from 'lodash'
+import { List, Divider } from 'antd'
 
 // import { DefaultList } from '@groceristar/grocery-component'
 import { ListWrapperShort } from '@groceristar/antd-showcase-components'
-
-
-
 
 import {
   getRandomRecipe,
@@ -16,26 +13,17 @@ import {
   getShowcaseFiveRecipes
 } from '../selector'
 
-
 const data = [
   'Racing car sprays burning fuel into crowd.',
   'Japanese princess to wed commoner.',
   'Australian walks 100km after outback crash.',
   'Man charged over missing wedding girl.',
-  'Los Angeles battles huge wildfires.',
-];
-
-
-
-
+  'Los Angeles battles huge wildfires.'
+]
 
 const h3Style = { margin: '16px 0' }
 
-
-
 const ExampleRecipeListView = (data) => {
-
-
   return (
     <div>
 
@@ -57,9 +45,9 @@ const ExampleRecipeListView = (data) => {
       <h3 style={h3Style}>
         Small Size
       </h3>
-      <ListWrapperShort data={data} size="small" />
+      <ListWrapperShort data={data} size='small' />
       <List
-        size="small"
+        size='small'
         header={<div>Header</div>}
         footer={<div>Footer</div>}
         bordered
@@ -71,10 +59,10 @@ const ExampleRecipeListView = (data) => {
       <h3 style={h3Style}>
         Large Size
       </h3>
-      <ListWrapperShort data={data} size="large" />
+      <ListWrapperShort data={data} size='large' />
 
       <List
-        size="large"
+        size='large'
         header={<div>Header</div>}
         footer={<div>Footer</div>}
         bordered
@@ -84,7 +72,7 @@ const ExampleRecipeListView = (data) => {
       <Divider />
 
     </div>
-  );
+  )
 }
 
 export default ExampleRecipeListView

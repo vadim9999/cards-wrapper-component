@@ -1,16 +1,11 @@
-import React, { Component, Fragment } from 'react';
+import React, { Component, Fragment } from 'react'
 // import {
 //   Header
 // } from '@groceristar/antd-showcase-components'
 
-import { ListWrapper }   from '@groceristar/cards-wrapper';
+import { ListWrapper } from '@groceristar/cards-wrapper'
 
-
-
-import "antd/dist/antd.css";
-
-
-
+import 'antd/dist/antd.css'
 
 // import {
 //   getFirstFiveRecipes
@@ -19,21 +14,16 @@ import "antd/dist/antd.css";
 // const list = getFirstFiveRecipes();
 // console.log(list);
 
-
-
-
 const ExampleListView = (list) => {
-
   // const list = getFirstFiveRecipes();
   // console.log(list);
 
   return (
     <Fragment>
 
-        <ListWrapper list={list} />
+      <ListWrapper list={list} />
 
-
-      </Fragment>
+    </Fragment>
   )
 }
 // <Cards />

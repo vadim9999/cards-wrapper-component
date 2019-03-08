@@ -10,12 +10,9 @@ import {
   DefaultCard5
 } from '/index'
 
-
-
 const DefaultCardsExample = () => {
   return (
     <Fragment>
-
 
       <Divider />
 
@@ -33,7 +30,6 @@ const DefaultCardsExample = () => {
 
       <DefaultCard5 />
       <Divider />
-
 
     </Fragment>
   )

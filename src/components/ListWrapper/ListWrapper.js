@@ -3,12 +3,13 @@ import { List, Card, Ellipsis, Icon, Button } from 'antd'
 import Img from 'react-image'
 
 const Avatar = (image) => (
-  <Img src={image} alt="" className="cardAvatar" />
+  <Img src={image} alt='' className='cardAvatar' />
 )
 
 const ItemCard = (item) => (
   <List.Item key={item.key}>
-    <Card hoverable className="card"
+
+    <Card hoverable className='card'
       actions={[<a>OK</a>, <a>OK</a>]}>
       <Card.Meta
         avatar={Avatar(item.recipe.img)}
@@ -20,21 +21,22 @@ const ItemCard = (item) => (
         }
       />
     </Card>
+
   </List.Item>
 )
 
 const ItemCardEmpty = () => (
   <List.Item>
-    <Button type="dashed" className="newButton">
-      <Icon type="plus" /> Add new
+    <Button type='dashed' className='newButton'>
+      <Icon type='plus' /> Add new
     </Button>
   </List.Item>
 )
 
-const renderItem = ( item ) => {
+const renderItem = (item) => {
   // can be replaced with <ItemCard />
   return (
-    ( item ) ? ItemCard(item) : ItemCardEmpty
+    (item) ? ItemCard(item) : ItemCardEmpty
   )
 }
 
@@ -46,15 +48,15 @@ const gridStyles = {
   xs: 1
 }
 
-const ListWrapper = ( { list } ) => {
+const ListWrapper = ({ list }) => {
   return (
     <List
-        rowKey="id"
-        grid={gridStyles}
-        dataSource={['', ...list]}
-        renderItem={ item => renderItem( item ) }
-      />
+      rowKey='id'
+      grid={gridStyles}
+      dataSource={['', ...list]}
+      renderItem={item => renderItem(item)}
+    />
   )
 }
 
-export default ListWrapper;
+export default ListWrapper

@@ -1,8 +1,8 @@
-import React, { Component, PureComponent } from 'react';
-import { Empty, Button } from 'antd';
+import React, { Component, PureComponent } from 'react'
+import { Empty, Button } from 'antd'
 
-//@TODO replace it
-const imagePath = "https://gw.alipayobjects.com/mdn/miniapp_social/afts/img/A*pevERLJC9v0AAAAAAAAAAABjAQAAAQ/original";
+// @TODO replace it
+const imagePath = 'https://gw.alipayobjects.com/mdn/miniapp_social/afts/img/A*pevERLJC9v0AAAAAAAAAAABjAQAAAQ/original'
 
 const EmExtended = () => {
   return (
@@ -12,11 +12,11 @@ const EmExtended = () => {
         description={
           <span>
             Customize
-            <a href="#API">Description</a>
+            <a href='#API'>Description</a>
           </span>
         }
       >
-        <Button type="primary">
+        <Button type='primary'>
           Create Now
         </Button>
       </Empty>

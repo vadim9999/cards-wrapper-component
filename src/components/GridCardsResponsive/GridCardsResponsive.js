@@ -1,50 +1,44 @@
-import React, { Component, PureComponent } from 'react';
+import React, { Component, PureComponent } from 'react'
 
-import { List, Card } from 'antd';
+import { List, Card } from 'antd'
 
-const data = [
-  {
-    title: 'Title 1',
-  },
-  {
-    title: 'Title 2',
-  },
-  {
-    title: 'Title 3',
-  },
-  {
-    title: 'Title 4',
-  },
-  {
-    title: 'Title 5',
-  },
-  {
-    title: 'Title 6',
-  },
-];
+// @TODO REPLACE CARD WITH OUR CUSTOM WRAPPER
+// import {
+//   Card1,
+//   Card2,
+//   Card3,
+//   Card4,
+//   Card5
+// } from '~/Cards'
+
+import data from './data'
 
 const styles = {
   grid: {
-    gutter: 16, xs: 1, sm: 2, md: 4, lg: 4, xl: 6, xxl: 3,
+    gutter: 16, xs: 1, sm: 2, md: 4, lg: 4, xl: 6, xxl: 3
   }
 }
 
-const GridRespon = () => {
+const RenderItem = (item) => {
+  return (
+    <List.Item>
+      <Card title={item.title}>
+        Card content
+      </Card>
+    </List.Item>
+  )
+}
+
+const GridCardsResponsive = () => {
   return (
     <Fragment>
       <List
         grid={styles.grid}
         dataSource={data}
-        renderItem={item => (
-          <List.Item>
-            <Card title={item.title}>
-              Card content
-            </Card>
-          </List.Item>
-        )}
+        renderItem={RenderItem(item)}
       />,
     </Fragment>
   )
 }
 
-export default GridRespon
+export default GridCardsResponsive

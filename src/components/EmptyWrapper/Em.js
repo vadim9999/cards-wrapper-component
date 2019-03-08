@@ -1,5 +1,5 @@
-import React, { Component, PureComponent } from 'react';
-import { Empty } from 'antd';
+import React, { Component, PureComponent } from 'react'
+import { Empty } from 'antd'
 
 const Em = () => {
   return (
