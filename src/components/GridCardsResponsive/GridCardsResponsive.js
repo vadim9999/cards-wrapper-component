@@ -11,23 +11,27 @@ import { List, Card } from 'antd'
 //   Card5
 // } from '~/Cards'
 
-import data from './data'
+import data from '~/Grid/data'
 
-const styles = {
-  grid: {
-    gutter: 16, xs: 1, sm: 2, md: 4, lg: 4, xl: 6, xxl: 3
-  }
-}
+// const styles = {
+//   grid: {
+//     gutter: 16, xs: 1, sm: 2, md: 4, lg: 4, xl: 6, xxl: 3
+//   }
+// }
 
-const RenderItem = (item) => {
-  return (
-    <List.Item>
-      <Card title={item.title}>
-        Card content
-      </Card>
-    </List.Item>
-  )
-}
+import styles from '~/Grid/styles.responsive';
+
+import RenderItem from '~/Grid/RenderItem';
+
+// const RenderItem = (item) => {
+//   return (
+//     <List.Item>
+//       <Card title={item.title}>
+//         Card content
+//       </Card>
+//     </List.Item>
+//   )
+// }
 
 const GridCardsResponsive = () => {
   return (

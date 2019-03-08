@@ -12,21 +12,25 @@ import { List, Card } from 'antd'
 //   Card5
 // } from '~/Cards'
 
-import data from './data'
+import data from '~/Grid/data'
 
-const styles = {
-  grid: { gutter: 16, column: 4 }
-}
+// const styles = {
+//   grid: { gutter: 16, column: 4 }
+// }
 
-const RenderItem = (item) => {
-  return (
-    <List.Item>
-      <Card title={item.title}>
-        Card content
-      </Card>
-    </List.Item>
-  )
-}
+import styles from '~/Grid/styles.list';
+
+// const RenderItem = (item) => {
+//   return (
+//     <List.Item>
+//       <Card title={item.title}>
+//         Card content
+//       </Card>
+//     </List.Item>
+//   )
+// }
+
+import RenderItem from '~/Grid/RenderItem';
 
 const GridList = () => {
   return (
