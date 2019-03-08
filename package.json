@@ -1,6 +1,6 @@
 {
   "name": "@groceristar/cards-wrapper",
-  "version": "1.0.13",
+  "version": "1.0.14",
   "description": "module to use antd cards between projects",
   "main": "dist/index.js",
   "repository": "https://github.com/GroceriStar/cards-wrapper-component",
