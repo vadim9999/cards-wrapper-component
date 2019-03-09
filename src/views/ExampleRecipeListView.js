@@ -5,13 +5,13 @@ import { List, Divider } from 'antd'
 // import { DefaultList } from '@groceristar/grocery-component'
 import { ListWrapperShort } from '@groceristar/antd-showcase-components'
 
-import {
-  getRandomRecipe,
-  getFirstFiveRecipes,
-  getFiveRandomIngredients,
-  getRecipeChickenKyivById,
-  getShowcaseFiveRecipes
-} from '../selector'
+// import {
+//   getRandomRecipe,
+//   getFirstFiveRecipes,
+//   getFiveRandomIngredients,
+//   getRecipeChickenKyivById,
+//   getShowcaseFiveRecipes
+// } from '../selector'
 
 const data = [
   'Racing car sprays burning fuel into crowd.',
