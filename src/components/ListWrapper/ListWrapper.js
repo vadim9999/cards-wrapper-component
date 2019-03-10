@@ -15,22 +15,33 @@ const Avatar = (image) => (
 //   Card5
 // } from '~/Cards'
 
-const ItemCard = (item) => (
-  <List.Item key={item.key}>
-
-    <Card hoverable className='card'
-      actions={[<a>OK</a>, <a>OK</a>]}>
+// @TODO Yeah, it's a joke, we need to update that card.
+const BetterCard = (image, title, directions) => {
+  const actions = [
+    <a>OK</a>,
+    <a>OK</a>
+  ];
+  return (
+    <Card
+      hoverable
+      className='card'
+      actions={actions}>
       <Card.Meta
-        avatar={Avatar(item.recipe.img)}
-        title={<a>{item.recipe.title}</a>}
+        avatar={Avatar(image)}
+        title={<a>{title}</a>}
         description={
           <h2>
-            {item.recipe.directions}
+            {directions}
           </h2>
         }
       />
     </Card>
+  )
+}
 
+const ItemCard = (item) => (
+  <List.Item key={item.key}>
+    {BetterCard(item.recipe.img, item.recipe.title, item.recipe.directions)}
   </List.Item>
 )
 
@@ -49,6 +60,7 @@ const renderItem = (item) => {
   )
 }
 
+// compare this grid styles with styles from Grid component
 const gridStyles = {
   gutter: 24,
   lg: 3,

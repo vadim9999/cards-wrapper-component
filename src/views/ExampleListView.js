@@ -3,7 +3,7 @@ import React, { Component, Fragment } from 'react'
 //   Header
 // } from '@groceristar/antd-showcase-components'
 
-import { ListWrapper } from '@groceristar/cards-wrapper'
+import { ListWrapper } from '/index.js'
 
 import 'antd/dist/antd.css'
 

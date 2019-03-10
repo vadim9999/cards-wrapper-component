@@ -15,27 +15,14 @@ import {
 
   ClearCardsExample,
   DefaultCardsExample
-} from '@groceristar/cards-wrapper'
-
-
+} from '/index.js'
 
 // import RecipeListExample from './components/RecipeList/RecipeList'
 
-
-
-
-// import RecipeListExample from './components/RecipeList/RecipeList'
 
 
 import "antd/dist/antd.css";
 // import "./../styles.css";
-
-import {
-  getFirstFiveRecipes
-} from "../selector";
-
-
-// const list = getFirstFiveRecipes()
 
 class ExampleCardsView extends Component {
 

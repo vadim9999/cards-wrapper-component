@@ -14,13 +14,15 @@ import {
   DefaultCard5
 } from '~/Cards/Default/DefaultCard'
 
-import ClearCardsExample from '~/ClearCardsExample/ClearCardsExample'
-import DefaultCardsExample from '~/DefaultCardsExample/DefaultCardsExample'
-
 import ListWrapper from '~/ListWrapper/ListWrapper'
 
 import EmptyWrapper from '~/EmptyWrapper/EmptyWrapper'
 import { Grid, GridCards, GridCardsResponsive } from '~/Grid/Grid'
+
+
+
+import ClearCardsExample from '@v/ClearCardsExample/ClearCardsExample'
+import DefaultCardsExample from '@v/DefaultCardsExample/DefaultCardsExample'
 
 
 // import ExampleListView from '@v/ExampleListView/ExampleListView'
