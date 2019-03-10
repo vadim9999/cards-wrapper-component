@@ -4,7 +4,7 @@ import { Empty, Button } from 'antd'
 // @TODO replace it
 const imagePath = 'https://gw.alipayobjects.com/mdn/miniapp_social/afts/img/A*pevERLJC9v0AAAAAAAAAAABjAQAAAQ/original'
 
-const EmExtended = () => {
+const EmptyExtended = () => {
   return (
     <Fragment>
       <Empty
@@ -24,4 +24,4 @@ const EmExtended = () => {
   )
 }
 // https://ant.design/components/empty/#components-empty-demo-config-provider
-export default EmExtended
+export default EmptyExtended
