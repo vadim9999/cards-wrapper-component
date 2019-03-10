@@ -20,8 +20,8 @@ import DefaultCardsExample from '~/DefaultCardsExample/DefaultCardsExample'
 import ListWrapper from '~/ListWrapper/ListWrapper'
 
 import EmptyWrapper from '~/EmptyWrapper/EmptyWrapper'
-import GridCards from '~/GridCards/GridCards'
-import GridCardsResponsive from '~/GridCardsResponsive/GridCardsResponsive'
+import { Grid, GridCards, GridCardsResponsive } from '~/Grid/Grid'
+
 
 // import ExampleListView from '@v/ExampleListView/ExampleListView'
 // import ExampleRecipeListView from '@v/ExampleRecipeListView/ExampleRecipeListView'
@@ -53,8 +53,8 @@ export {
   ListWrapper,
 
   EmptyWrapper,
-  GridCards,
-  GridCardsResponsive,
+
+  Grid, GridCards, GridCardsResponsive,
 
   ExampleListView, ExampleRecipeListView, ExampleView,
 

@@ -6,6 +6,15 @@ const Avatar = (image) => (
   <Img src={image} alt='' className='cardAvatar' />
 )
 
+// @TODO REPLACE CARD WITH OUR CUSTOM WRAPPER
+// import {
+//   Card1,
+//   Card2,
+//   Card3,
+//   Card4,
+//   Card5
+// } from '~/Cards'
+
 const ItemCard = (item) => (
   <List.Item key={item.key}>
 
@@ -48,6 +57,8 @@ const gridStyles = {
   xs: 1
 }
 
+// @TODO actually this list wrapper has a similar role to Grid component.
+// we need to discuss it later
 const ListWrapper = ({ list }) => {
   return (
     <List

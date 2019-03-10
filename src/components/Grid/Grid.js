@@ -12,31 +12,20 @@ import { List, Card } from 'antd'
 //   Card5
 // } from '~/Cards'
 
-import data from '~/Grid/data'
+import data from './data'
 
-// const styles = {
-//   grid: { gutter: 16, column: 4 }
-// }
+import {
+  list,
+  responsive
+} from './styles';
 
-import styles from '~/Grid/styles.list';
 
-// const RenderItem = (item) => {
-//   return (
-//     <List.Item>
-//       <Card title={item.title}>
-//         Card content
-//       </Card>
-//     </List.Item>
-//   )
-// }
 
-import RenderItem from '~/Grid/RenderItem';
-
-const GridList = () => {
+const Grid = (styles, data) => {
   return (
     <Fragment>
       <List
-        grid={styles.grid}
+        grid={styles}
         dataSource={data}
         renderItem={RenderItem(item)}
       />
@@ -44,4 +33,26 @@ const GridList = () => {
   )
 }
 
-export default GridList
+const GridList = () => {
+  return (
+    <Fragment>
+      <Grid styles={list.grid} data={data} />
+    </Fragment>
+  )
+}
+
+
+
+const GridCardsResponsive = () => {
+  return (
+    <Fragment>
+      <Grid styles={responsive.grid} data={data} />
+    </Fragment>
+  )
+}
+
+export {
+  Grid,
+  GridList,
+  GridCardsResponsive
+}
